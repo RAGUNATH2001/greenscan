@@ -1,0 +1,105 @@
+body{
+    background-image:url('https://i.pinimg.com/236x/31/63/5e/31635e131b8396e493634859787b4f51--farmers-celebrations.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 10px;
+    border:1.5px double rgb(0, 202, 34);  
+   
+    
+    
+}
+/* .printpage{
+    padding:20px
+} */
+.navigation{
+    border:10px double rgb(0, 0, 0);
+    border-radius:30px;
+    
+}
+.navigation-bar{
+    display: grid;
+    grid-template-columns: 25% 19% 25% 8% 13% 8%; 
+    padding:10px 0px 3px 10px;
+    color:white;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.9;
+    font-weight: bold;
+    
+}
+#missedcall-order-number{
+    color:green;
+}
+/* #order-inquiries-link   a {
+    text-decoration: none;
+    color:green;
+} */
+
+.order-inquiries{
+    padding-left:40px;
+    opacity: 1;
+}
+.logo{
+    color:rgb(241, 9, 9);
+    text-shadow: -1px 1px green,0px 1px rgb(4, 80, 4) , 1px 1px green, 0px -1px green;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 1.5s ease-in-out;
+    transform: scale(1);
+   
+    opacity:100;
+    text-align: center;
+   
+    font-family: "Sofia", sans-serif;
+    
+    
+}
+.logo:hover{
+    color:rgb(5, 168, 18);
+    transform: scale(1.1);
+    border-color:red;
+    border-width: 3px;
+}
+.login{
+    text-align: center;
+}
+/* navigation secound  */
+.navigation-barmain{
+    color:white;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 100px 120px 150px 100px 150px 140px  150px 200px 100px;
+    padding: 20px 0px 0px 200px ; 
+    font-weight:bold;
+    font-family: "Sofia", sans-serif;
+    background-color:black;
+    opacity:0.7 ;
+}
+
+
+/* sunflower */
+
+.img{
+    display:grid;
+    grid-template-columns:20% 20% 25% 30% ;
+
+}
+label{
+    color:rgb(27, 201, 36);
+    font-family:"Sofia", sans-serif;
+    font-weight: bold;
+}
+legend{
+    text-align: center;
+    color:green;
+    font-size: 30px;
+    font-family:"Sofia", sans-serif;
+}
+.input-type{
+    display:grid;
+    grid-template-columns: 20% 20% 25% 30% 20%;
+}
+a{
+    text-decoration: none;
+    color:white;
+}

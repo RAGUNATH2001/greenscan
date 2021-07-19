@@ -1,0 +1,248 @@
+body{
+    background-image:url('https://i.pinimg.com/236x/31/63/5e/31635e131b8396e493634859787b4f51--farmers-celebrations.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 10px;
+    border:1.5px double rgb(0, 202, 34);  
+   
+    
+    
+}
+/* .printpage{
+    padding:20px
+} */
+.navigation{
+    border:10px double rgb(0, 0, 0);
+    border-radius:30px;
+    
+}
+.navigation-bar{
+    display: grid;
+    grid-template-columns: 25% 19% 25% 8% 13% 8%; 
+    padding:10px 0px 3px 10px;
+    color:white;
+    font-size: 20px;
+    background-color: black;
+    opacity: 0.9;
+    font-weight: bold;
+    
+}
+#missedcall-order-number{
+    color:green;
+}
+/* #order-inquiries-link   a {
+    text-decoration: none;
+    color:green;
+} */
+
+.order-inquiries{
+    padding-left:40px;
+    opacity: 1;
+}
+.logo{
+    color:rgb(241, 9, 9);
+    text-shadow: -1px 1px green,0px 1px rgb(4, 80, 4) , 1px 1px green, 0px -1px green;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 1.5s ease-in-out;
+    transform: scale(1);
+    background-color:white;
+    opacity:100;
+    text-align: center;
+    border-radius: 50px;
+    font-family: "Sofia", sans-serif;
+    
+    
+}
+.logo:hover{
+    color:rgb(5, 168, 18);
+    transform: scale(1.1);
+    border-color:red;
+    border-width: 3px;
+}
+.login{
+    text-align: center;
+}
+/* navigation secound  */
+.navigation-barmain{
+    color:white;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 100px 120px 150px 100px 150px 140px  150px 200px 100px;
+    padding: 20px 0px 0px 200px ; 
+    font-weight:bold;
+    font-family: "Sofia", sans-serif;
+    background-color:black;
+    opacity:0.7 ;
+}
+.navigation-barmain>a{
+    text-decoration: none;
+}
+/* poster */
+
+/* brands */
+
+.brands-row1{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%   ;
+    width:1300px;
+    height: 200px;
+    overflow-y: scroll;
+     overflow-x:hidden;
+    scrollbar-color: red yellow;
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+}
+.brands-row1:hover{
+    transform: scale(1);
+
+}
+.brands-row2{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%   ;
+    width:1300px;
+    height: 200px;
+    padding-top:20px;
+    
+
+}
+.brands-row3{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%   ;
+    width:1300px;
+    height: 200px;
+    padding-top:20px;
+}
+.img-hover{
+    transform: scale(1);
+    transition: 0.1 ease-in-out;
+}
+.img-hover:hover{
+    
+    transform: scale(1.1);
+}
+    
+   
+
+fieldset{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border:3px double rgb(0, 225, 255);
+    font-family: "Sofia", sans-serif;
+    text-shadow: -1px 0px green,0px 1px red, 1px 0px red, 0px -1px red;
+}
+#title-color{
+    background-image: radial-gradient(red,green,blue);
+}
+
+/* .Tools{
+    background-image:radial-gradient(rgb(219, 207, 209),rgb(33, 156, 56),rgb(68, 168, 196));
+    opacity: 0.9;
+} */
+
+/* seasonal */
+
+.ragu{
+    display:grid;
+    grid-template-columns:2% 3% 4%;
+    padding-left: 200px;
+}
+
+.nath{
+    padding-left: 300px;
+}
+.nath1{
+    padding-left: 600px;
+}
+.sp{
+    padding:0px 0px 20px 0px;
+}
+
+/* knowledge */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+::-webkit-scrollbar-button{
+    color:pink;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #4e0000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(20, 163, 20); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(12, 15, 163); 
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #a51180; 
+  }
+
+
+  
+   
+
+
+
